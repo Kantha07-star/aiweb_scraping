@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+google-generativeai
+beautifulsoup4
+requests
+pydantic
+python-multipart
+python-dotenv
