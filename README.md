@@ -46,15 +46,18 @@ GOOGLE_API_KEY=your_google_api_key
 
 ENABLE_AI=true
 
+
 🖥️ Running the app
 
 uvicorn app:app --reload
+
 
 🔐 Authentication
 
 All endpoints (except health checks) require a Bearer token passed via the Authorization header:
 
 Authorization: Bearer your_api_secret_key
+
 
 📡 API Endpoints
 
@@ -91,12 +94,12 @@ Request Body:
   "questions": [
   
     "What industry does this company belong to?",
-    
     "Where is it located?"
     
   ]
   
 }
+
 
 Response:
 
