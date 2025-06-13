@@ -120,7 +120,6 @@ Response:
     "description": "A leading provider of cloud solutions.",
     
     "confidence_score": 0.88
-    
   },
   
   "questions_answered": {
@@ -155,7 +154,9 @@ Text processing is optimized for performance and clarity.
 project/
 
 ├── app.py        # Main FastAPI application
+
 ├── .env                  # Environment variables
+
 └── requirements.txt      # Dependency list (optional)
 
 
