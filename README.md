@@ -64,6 +64,7 @@ Root Health Check
 
 Returns the server status and configuration summary.
 
+
 GET /health
 
 Detailed Health Check
@@ -76,12 +77,15 @@ AI availability
 
 Security configuration
 
+
 POST /analyze
 
 Analyze a Website
 
 Request Body:
+
 {
+
   "url": "https://example.com",
   
   "questions": [
@@ -89,11 +93,13 @@ Request Body:
     "What industry does this company belong to?",
     
     "Where is it located?"
+    
   ]
   
 }
 
 Response:
+
 {
 
   "url": "https://example.com",
@@ -114,6 +120,7 @@ Response:
     
   },
   
+  
   "questions_answered": {
   
     "What industry does this company belong to?": "Technology",
@@ -128,7 +135,9 @@ Response:
   "ai_model_used": "google-gemini"
 }
 
+
 🤖 AI & Rule-Based Logic
+
 Gemini AI is used if ENABLE_AI=true and GOOGLE_API_KEY is valid.
 
 If Gemini fails or is not configured, a rule-based extractor is used.
@@ -137,18 +146,27 @@ Location extraction includes schema.org parsing, heuristics, and known location 
 
 Text processing is optimized for performance and clarity.
 
+
 📂 Folder Structure
+
 project/
-├── app.py                # Main FastAPI application
+
+├── app.py        # Main FastAPI application
 ├── .env                  # Environment variables
 └── requirements.txt      # Dependency list (optional)
 
+
 🧪 Testing the API
+
 Use tools like Postman, curl, or the built-in Swagger UI at:
 
 http://localhost:8000/docs
 
+
 📝 Example .env
+
 API_SECRET_KEY=supersecure123
+
 GOOGLE_API_KEY=your_google_key_here
+
 ENABLE_AI=true
