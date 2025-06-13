@@ -123,7 +123,6 @@ Response:
     
   },
   
-  
   "questions_answered": {
   
     "What industry does this company belong to?": "Technology",
@@ -136,6 +135,7 @@ Response:
   "success": true,
   
   "ai_model_used": "google-gemini"
+  
 }
 
 
