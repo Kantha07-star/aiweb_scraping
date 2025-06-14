@@ -1,7 +1,7 @@
 FastAPI AI Website Business Intelligence API
 
-Overview:
-This FastAPI application scrapes and analyzes website homepage content to extract business-related information using Google's Gemini AI or a rule-based fallback system.  
+Overview:  
+This FastAPI application scrapes and analyzes website homepage content to extract business-related information using Google's Gemini AI or a rule-based fallback system.   
 It accepts a website URL and optional user-defined questions and returns structured company information and answers derived from the content.
 
 Features:
