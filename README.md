@@ -7,7 +7,7 @@ It accepts a website URL and optional user-defined questions and returns structu
 Features:
 Token-based Authentication  
 Website scraping using BeautifulSoup  
-AI-powered analysis with Google Gemini (if enabled)  
+AI-powered analysis with Google Gemini 
 Rule-based analysis fallback    
 Customizable questions  
 Extracts:  
@@ -23,7 +23,9 @@ Installation
 pip install fastapi uvicorn google-generativeai beautifulsoup4 requests pydantic python-multipart python-dotenv  
   
 Ensure you have a .env file with the following variables:  
-API_SECRET_KEY=your_api_secret_key GOOGLE_API_KEY=your_google_api_key ENABLE_AI=true  
+API_SECRET_KEY=your_api_secret_key  
+GOOGLE_API_KEY=your_google_api_key  
+ENABLE_AI=true    
   
 Running the App  
 uvicorn app:app --reload  
