@@ -1,4 +1,4 @@
-FastAPI AI AGENT FOR WEBSITE SCRAPING 
+FASTAPI AI AGENT FOR WEBSITE SCRAPING 
 
 Overview:  
 This FastAPI application scrapes and analyzes website homepage content to extract business-related information using Google's Gemini AI or a rule-based fallback system.   
