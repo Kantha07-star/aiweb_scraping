@@ -1,4 +1,3 @@
-# aiweb_scraping
 📘 FastAPI AI Website Business Intelligence API
 
 🧠 Overview
@@ -32,11 +31,13 @@ Confidence Score
 
 🔧 Robust error handling
 
-🔄 Health Check Endpoints
+🔄 Health Check Endpoint  
+
 
 🛠️ Installation
 
 pip install fastapi uvicorn google-generativeai beautifulsoup4 requests pydantic python-multipart python-dotenv
+
 
 Ensure you have a .env file with the following variables:
 
