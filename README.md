@@ -17,6 +17,7 @@ It accepts a website URL and optional user-defined questions and returns structu
 
 📄 Customizable questions
 
+
 📊 Extracts:
 
 Industry
@@ -56,6 +57,7 @@ uvicorn app:app --reload
 🔐 Authentication
 
 All endpoints (except health checks) require a Bearer token passed via the Authorization header:
+
 
 Authorization: Bearer your_api_secret_key
 
